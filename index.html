@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Wiki search</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>bhiya</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<link href="animate.css" rel="stylesheet">
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: scroll;
+			display: flex;
+			 align-items: center;
+			flex-direction: column;
+		}
+		canvas {
+			margin:auto;
+		}
+		div{
+			padding: 10px;
+			margin: 10px;
+			background-color: white;
+			box-shadow: 10px 10px 10px grey;
+			border-radius: 10px;
+			width: 60vw;
+			border: solid rgb(150,150,150) 1px;
+		}
+		div:hover{
+			font-size: 15pt;
+		}
+		a{
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input id="in" type="text" placeholder="Search" style="margin:10vh;width: 50vw;height:35px;">
+	</form>
+</body>
+</html>
